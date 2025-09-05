@@ -1,0 +1,5 @@
+model,mean_auc,std_auc,best_params
+logreg,0.8853,0.0073,"{'classifier__C': 1.0, 'classifier__penalty': 'l2', 'classifier__solver': 'liblinear'}"
+rf,0.8962,0.0066,"{'classifier__max_depth': 10, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 200}"
+xgb,0.8989,0.0058,"{'classifier__learning_rate': 0.1, 'classifier__max_depth': 3, 'classifier__n_estimators': 100}"
+mlp,0.8419,0.0364,"{'classifier__alpha': 0.001, 'classifier__hidden_layer_sizes': (64,)}"

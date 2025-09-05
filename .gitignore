@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.so
+
+# Packages
+.env
+.venv
+env/
+venv/
+lib/
+lib64/
+__pypackages__/
+
+# virtualenv
+/bin/
+/include/
+/lib/
+/share/
+
+# Editor/OS specific
+.DS_Store
+.vscode/
+.idea/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Misc.
+Plan*/
+
+# Logs
+*.log

@@ -1,0 +1,20 @@
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Development-related files and folders
+.git/
+.gitignore
+.vscode/
+
+# Ignore the Dockerfile folder itself to avoid recursion
+# Not necessary if the Dockerfile is in a separate directory
+# docker/
+
+# Files that are not needed for the final image
+.env
+*.log
